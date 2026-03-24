@@ -23,6 +23,25 @@ export const metadata: Metadata = {
   verification: {
     google: "TUGTKsXGSsZZQ1gJ_rc1_efskTedMpRJmnMbfBs2eGA",
   },
+  keywords: [
+    "System Design",
+    "Scalability",
+    "Autoscaling",
+    "Next.js",
+    "Database Scaling",
+    "Backend Architecture",
+    "Engineering Blogs",
+  ],
+  authors: [{ name: "Karan" }],
+  creator: "Karan",
+  metadataBase: new URL("https://scale-guide-v2.vercel.app"),
+  openGraph: {
+    title: SITE_NAME,
+    description: SITE_DESCRIPTION,
+    url: "https://scale-guide-v2.vercel.app",
+    siteName: SITE_NAME,
+    type: "website",
+  },
 };
 
 export default function RootLayout({
